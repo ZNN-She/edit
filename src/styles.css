@@ -1,0 +1,19 @@
+.mg-sms-content {
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  min-height: 80px;
+}
+.mg-sms-content:focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+  outline-color: #2dc3e8;
+  outline-style: auto;
+  outline-width: 1px;
+}
+img.mg-sms-img-var {
+  height: 18px;
+  border: 0;
+  margin: 0 4px;
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+}

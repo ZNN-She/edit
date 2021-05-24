@@ -1,0 +1,34 @@
+.mg-sms-var {
+}
+.mg-sms-var .mg-sms-var__icon {
+  cursor: pointer;
+  height: 20px;
+  line-height: 20px;
+  color: blue;
+}
+.mg-sms-var .mg-sms-var__content {
+  position: absolute;
+  padding: 4px;
+  width: 300px;
+  max-height: 300px;
+  left: 0;
+  top: 20px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background: #fff;
+}
+
+.mg-sms-var .mg-sms-var__content-item {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  border: 0;
+  padding: 0 4px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.mg-sms-var .mg-sms-var__content-item:hover {
+  background: #ddd;
+}

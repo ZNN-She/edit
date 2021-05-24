@@ -1,0 +1,36 @@
+.mg-sms-emojs {
+}
+.mg-sms-emojs .mg-sms-emojs__icon {
+  cursor: pointer;
+  height: 20px;
+  line-height: 20px;
+  color: blue;
+}
+.mg-sms-emojs .mg-sms-emojs__content {
+  position: absolute;
+  padding: 4px;
+  width: 300px;
+  max-height: 300px;
+  left: 0;
+  top: 20px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background: #fff;
+}
+
+.mg-sms-emojs .mg-sms-emojs__content-item {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  border: 0;
+  margin: 0 4px;
+  padding: 0;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.mg-sms-emojs .mg-sms-emojs__content-item:hover {
+  background: #ddd;
+}

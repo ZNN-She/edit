@@ -1,0 +1,19 @@
+.mg-sms-header {
+  border: 1px solid #ddd;
+  height: 22px;
+}
+.mg-sms-header .mg-sms-header_item {
+  position: relative;
+  padding: 0 4px;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+  min-width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.mg-sms-header .mg-sms-header_item:first-child {
+  padding-left: 0;
+}
+.mg-sms-header .mg-sms-header_item:hover {
+  background: #ddd;
+}
